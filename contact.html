@@ -84,6 +84,7 @@
                     </div>
                 </div>
                 <div class="col-md-8">
+                    <form name="contact" method="POST" data-netlify="true">
                     <div class="card p-4 mb-3">
                         <div class="card-body">
                             <h3 class="text-center">Get in touch With Us</h3>
@@ -91,25 +92,25 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" placeholder="Firstname..." class="form-control">
+                                        <input type="text" name="name" id="name" placeholder="Firstname..." class="form-control">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" placeholder="LastName..." class="form-control">
+                                        <input type="text" name="name" id="name" placeholder="LastName..." class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="email" placeholder="Email" class="form-control">
+                                        <input type="email" name="email" id="email" placeholder="Email" class="form-control">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" placeholder="Phone number" class="form-control">
+                                        <input type="text" name="phonenumber" id="phone" placeholder="Phone number" class="form-control">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea class="form-control" rows="5" placeholder="Message Us"></textarea>
+                                        <textarea name="message" id="message" class="form-control" rows="5" placeholder="Message Us"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
@@ -120,6 +121,7 @@
                             </div>
                         </div>
                     </div>
+                </form>
                 </div>
             </div>
         </div>
