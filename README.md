@@ -1,10 +1,11 @@
-# Glozzom-Bootstrap-theme
-boootstrap 4 theme
+# AVIATION WEBSITE
+ - made with bootstrap4
 
-## Simple bootstrap front-end-theme
----
-![siteoverview](./img/mockup.png)
-***
-#### to view my theme
-[click here]( https://raisanjmr.github.io/Glozzom-Bootstrap-theme/)
-***
+
+### website preview
+
+![siteoverview](./img/planesite.gif)
+
+
+[click here]( https://raisanjmr.github.io/Glozzom-Bootstrap-theme/) for live demo
+
